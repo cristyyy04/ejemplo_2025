@@ -1,0 +1,13 @@
+@use "tailwindcss/base";
+@use "tailwindcss/components";
+@use "tailwindcss/utilities";
+
+// 💅 Tus estilos personalizados SCSS pueden ir abajo
+body {
+  @apply font-[Inter] bg-slate-100 dark:bg-slate-900 text-slate-800 dark:text-slate-100;
+}
+
+// Ejemplo de una clase SCSS tradicional
+.btn {
+  @apply px-4 py-2 rounded-lg text-white bg-sky-600 hover:bg-sky-700 transition;
+}
